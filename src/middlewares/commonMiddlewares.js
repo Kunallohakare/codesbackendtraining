@@ -20,7 +20,14 @@ const mid4= function ( req, res, next) {
     next()
 }
 
+const assignment1=function (req,res,next){
+    req.body=("anything new")
+    console.log("hi i am assignment")
+    next()
+}
+
 module.exports.mid1= mid1
 module.exports.mid2= mid2
 module.exports.mid3= mid3
 module.exports.mid4= mid4
+module.exports.assignment1=assignment1
